@@ -18,7 +18,7 @@ const element = document.querySelector(".main-container-background");
 // Et on anime l'image :)
 const img = new Image();
 // img.src = "./assets/vincentiu-solomon-hq-unsplash.jpg";
-img.src = ./assets/galaxy.jpg
+// img.src = ./assets/
 // img.src = "./assets/";
 img.decode().then(() => {
   element.style.backgroundImage = "url(" + img.src + ")";
@@ -85,4 +85,3 @@ timeline.fromTo(
     4
   );
   timeline.restart();
-  
