@@ -76,9 +76,13 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+header,
+section,
+div {
   /* border: 2px solid #ff4a11; */
   line-height: 1.5em;
+  text-align: center;
 }
 
 div,
@@ -139,6 +143,7 @@ p {
   line-height: 1.5em;
   padding: 10px;
   margin: 35px;
+  color: #ffffff;
 }
 
 .p-white {
