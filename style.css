@@ -88,6 +88,10 @@ section {
   /* min-height: 100vh; */
 }
 
+img {
+  max-width: fit-conten;
+}
+
 .fullsize,
 .section-fullsize {
   padding-top: 35px;
