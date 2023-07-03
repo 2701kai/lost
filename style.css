@@ -89,7 +89,7 @@ section {
 }
 
 img {
-  max-width: fit-conten;
+  max-width: 100%;
 }
 
 .fullsize,
